@@ -17,4 +17,4 @@ Created with ❤️ by Madhi.
 - Vanilla JavaScript
 
 #playHere
-siteLink:
+SiteLink: https://madhianandhan06.github.io/RPS_game/
