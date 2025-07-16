@@ -81,7 +81,7 @@ function showFinalResult() {
   } else if (player === computer) {
     resultEl.textContent = "🤝 The game is tied!";
   } else {
-    resultEl.textContent = "💻 Computer won the game!";
+    resultEl.textContent = "💻 Computer won!";
   }
 
   // Show Play Again button
