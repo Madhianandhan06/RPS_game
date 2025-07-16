@@ -101,6 +101,9 @@ function resetGame() {
   playerEl.textContent = "Player Score: 0";
   computerEl.textContent = "Computer Score: 0";
 
+        option1.textContent = "";
+    option2.textContent = "";
+
   document.getElementById("play-again").style.display = "none";
 }
 
