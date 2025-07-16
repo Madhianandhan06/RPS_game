@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rps.in</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- <div class="container"> -->
+  <h1>Rock-Paper-Scissor</h1>
+
+  <div class="btn-group">
+    <button onclick="Rock()">ROCK</button>
+    <button onclick="Paper()">PAPER</button>
+    <button onclick="Scissor()">SCISSOR</button>
+  </div>
+
+  <p id="score">Let's play!</p>
+  <p id="attempt">Attempts: 5</p>
+  <p id="result"></p>
+
+  <div class="stats">
+    <p id="player">Player Score: 0</p>
+    <p id="computer">Computer Score: 0</p>
+    <p id="score_1"></p>
+    <p id="score_2"></p>
+    <p id="option_1"></p>
+    <p id="option_2"></p>
+  </div>
+
+  <div class="btns">
+        <button id="play-again"onclick="resetGame()" >
+          Playagain
+        </button>
+  <button onclick="Quit()">
+    QUIT
+  </button>
+  </div>
+
+
+  <script src="rps.js"></script>
+</body>
+</html>

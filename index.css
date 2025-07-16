@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #0f2027, #0a2615, #170a00);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 40px 20px;
+  color: #fff;
+  background-image: url('bg.webp');
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #00ffe7;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #a92418;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+#btns{
+    display: flex;
+    justify-content: center;
+}
+button:hover {
+  background-color: #e85042;
+  transform: scale(1.05);
+}
+
+#score, #attempt, #result, #player, #computer, #score_1, #score_2 ,#option_1,#option_2{
+  margin: 10px;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px #000;
+}
+
+#score{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+#play-again{
+    display: none;
+}
+#result{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffc107;
+}
+
+.stats {
+  background-color: rgba(255,255,255,0.1);
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 600px) {
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
